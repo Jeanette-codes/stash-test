@@ -1,10 +1,16 @@
 import { combineReducers } from 'redux-immutable';
-import users from './users';
-import posts from './posts';
-import messageEntry from './messageEntry';
+import search from './search';
+import favorites from './favorites';
+import results from './results';
+import { watchSearch } from './search';
+import { all } from 'redux-saga/effects';
 
 export default combineReducers({
-  users,
-  posts,
-  messageEntry
+  search,
+  favorites,
+  results
 });
+
+export function* rootSaga() {
+  yield all([watchSearch()]);
+}

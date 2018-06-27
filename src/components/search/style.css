@@ -1,0 +1,22 @@
+.search-container {
+  width: 50%;
+  margin: 0 auto;
+  position: relative;
+}
+.search-container .search-input {
+  border-radius: 3px;
+  border: none;
+  padding: 10px 32px 7px 10px;
+  width: 100%;
+  margin-left: -18px;
+}
+
+.search-container .search-button {
+  position: absolute;
+  top: 7px;
+  right: -16px;
+}
+
+.search-container .search-button:hover {
+  cursor: pointer;
+}
