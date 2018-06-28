@@ -2,7 +2,8 @@ import { fromJS } from 'immutable';
 
 export default fromJS({
   search: {
-    value: ''
+    value: '',
+    searching: false
   },
   favorites: {
     data: [],

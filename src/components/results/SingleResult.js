@@ -45,6 +45,7 @@ export class SingleResult extends React.Component {
     return (
       <div className={resultClasses} onClick={this.handleClick}>
         <img src={images.preview_gif.url} alt={title} />
+        <i className="material-icons">favorite</i>
         <p>{title}</p>
       </div>
     );

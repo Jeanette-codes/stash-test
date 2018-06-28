@@ -1,0 +1,21 @@
+.favorites-container {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-areas: 'icon count';
+}
+
+.favorites-container i {
+  grid-area: icon;
+  align-self: center;
+  justify-self: right;
+  font-size: 25px;
+  width: 27px;
+  color: #ac00af;
+}
+
+.favorites-container p {
+  justify-self: left;
+  align-self: center;
+  color: #ac00af;
+}
