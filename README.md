@@ -2,17 +2,25 @@
 
 [deployed here](http://fender-guy.github.io/stash-test)
 
-### cool stuff used
+### Cool stuff used
   - css grids
   - redux-saga
 
-### base tech used
+### Base tech used
   - react
   - redux
   - react-redux
   - reselect
   - immutable
 
-### test tech used
+### Test tech used
   - jest
   - enzyme
+
+
+___
+
+>##### TODO
+> - pagination
+> - page to show favorited gifs
+> - user/password integration
