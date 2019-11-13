@@ -10,7 +10,7 @@ export const searchRequestSucceeded = 'SEARCH_REQUEST_SUCCEEDED';
 export const searchRequestFailed = 'SEARCH_REQUEST_FAILED';
 
 export default (state = Immutable.fromJS({}), action) => {
-  const { type, value, data, msg } = action;
+  const { type, value, msg } = action;
 
   switch (type) {
     case changeSearchInputAction:
